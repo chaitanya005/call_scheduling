@@ -1,0 +1,71 @@
+.outermostBox
+  display: flex
+  width: 230px
+  height: 100vh
+  //overflow: auto
+  flex-direction: column
+
+.container 
+    padding: 0px 15px 
+    overflow: auto 
+    height: calc(100vh - 255px)
+    background-color: #F5F6F8
+
+.buttonsContainer
+  flex: 1 1 1
+  display: flex
+  flex-direction: column
+
+.logo
+  margin: 20px 0px 30px 20px
+  border: none
+
+.button
+  flex: 1 1 1
+  display: flex 
+  outline: none
+  background-color: #2242A4
+  border: none
+  color: white
+  padding: 5px 20px
+  text-align: left
+  margin: 6px 10px
+  cursor: pointer
+  border-radius: 6px
+  align-items: center
+  font-family: Nunito Sans
+  font-weight: normal
+  font-size: 16px
+  line-height: 22px
+  color: #DDE1E5
+
+.button:hover
+  background-color: #3855AD
+
+.selectedButton
+  cursor: pointer
+  display: flex
+  outline: none
+  background-color: #3855AD
+  border: none
+  padding: 5px 20px
+  text-align: left
+  font-size: 16px
+  margin: 6px 10px
+  border-radius: 6px
+  align-items: center
+  font-family: Nunito Sans
+  font-weight: normal
+  font-size: 16px
+  line-height: 22px
+  color: white
+
+
+.iconContainer
+  float: left
+  width: 40px
+
+
+@media (min-width: 300px) and (max-width: 500px) 
+  .logo
+    margin: 10px 0px 15px 10px

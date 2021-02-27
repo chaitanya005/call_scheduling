@@ -1,0 +1,87 @@
+.outermostBox
+  padding: 10px 10%
+  overflow: auto
+  height: calc(100vh - 160px)
+  background: white
+
+.outermostBoxCustomerSide
+  padding: 10px 10%
+  overflow: auto
+  height: 100vh
+  background: white
+
+.reviewRow
+  margin: 8px 0px
+  display: inline-flex
+  align-items: center // TODO not working
+
+.xReviews
+  font-family: Nunito sans
+  font-size: 14px
+  font-weight: 400
+  line-height: 19px
+  margin-left: 10px
+
+.textAndColumn
+  display: flex
+  justify-content: space-between
+  margin: 10px 0px
+
+.description
+  margin-right: 20px
+
+.title
+  font-family: Nunito Sans
+  font-size: 24px
+  font-weight: 700
+  margin: 10px 0px
+
+.advBy
+  padding: 2px 0
+
+.advImg
+  margin-left: 1%
+
+.img
+  width: 25px
+  height: 25px
+  border-radius: 15px
+  margin-left: 3%
+
+.advName
+  padding: 1px 0
+  margin-left: 1%
+
+.advLink
+  color: #98A6AD
+  font-size: 16px 
+
+
+@media only screen and (max-width: 600px)
+  .outermostBoxCustomerSide
+    padding: 0px 10%
+
+  .title
+    margin-left: -10%
+    font-size: 20px
+  
+  .textAndColumn
+    flex-direction: column
+  
+  .description
+    margin-left: -10%
+    margin-right: 0
+  
+  .advDiv
+    margin-left: -10%
+  
+  .advBy
+    font-size: 13px
+  
+  .img
+    width: 20px
+    height: 20px
+
+  .advLink
+    font-size: 14px
+

@@ -1,0 +1,16 @@
+{
+  "presets": ["next/babel"],
+  "plugins": ["inline-react-svg"],
+  "env": {
+    "node": {
+      "plugins": [
+        [
+          "babel-plugin-transform-require-ignore",
+          {
+            "extensions": [".less", ".sass"]
+          }
+        ]
+      ]
+    }
+  }
+}

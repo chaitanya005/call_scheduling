@@ -1,0 +1,144 @@
+.fc .fc-media-screen .fc-direction-ltr .fc-theme-standard {
+  height: "450px" !important;
+}
+
+.fc td {
+  border-color: #495561;
+}
+
+.fc-today {
+  background: #fff !important;
+}
+
+.fc-button {
+  background: #fff !important;
+  border: none;
+  color: #33393f !important;
+  text-transform: capitalize !important;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: 0px !important;
+  margin: 0 3px;
+  padding: 6px 12px;
+  height: auto;
+}
+
+.fc-day-header {
+  color: #a8b5c3;
+}
+
+/* button:focus {
+    outline: 0;
+  } */
+
+.fc-button-primary:focus {
+  box-shadow: none !important;
+}
+
+.fc-button-active {
+  background-color: #2242a4 !important;
+  color: #fff !important;
+  text-shadow: none;
+}
+
+.fc-today-button {
+  background-color: #fff;
+  text-transform: capitalize !important;
+  border: 1px solid #e5e5e5 !important;
+}
+
+.fc-toolbar-title {
+  margin-left: 50px;
+}
+
+.fc-toolbar h2 {
+  font-size: 20px;
+}
+
+.fc-icon {
+  font-size: 1em !important;
+}
+
+.fc-event {
+  border-radius: 2px;
+  border: none;
+  cursor: move;
+  font-size: 0.8125rem;
+  margin: 5px 7px;
+  padding: 5px 5px;
+  text-align: center;
+}
+
+.fc th.fc-widget-header {
+  background: #323b44;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.fc-day-number {
+  float: right;
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  line-height: 20px;
+  background-color: #323b44;
+  border-radius: 50%;
+  margin: 5px;
+  font-size: 12px;
+  color: #a8b5c3;
+}
+
+.fc th.fc-widget-header {
+  border: 1px solid #495561;
+}
+
+.fc-axis {
+  color: #a8b5c3;
+  font-size: 14px;
+}
+
+.modal-content {
+  background: #323b43;
+}
+
+.close {
+  color: white;
+}
+
+.form-control {
+  width: 100%;
+  height: calc(1.5em + 0.9rem + 2px);
+  padding: 0.45rem 0.9rem;
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #fff;
+  background-color: #414d59;
+  background-clip: padding-box;
+  border: 1px solid #495561;
+  border-radius: 0.2rem;
+  outline: 0;
+}
+
+.form-control:focus {
+  background-color: #414d59;
+  color: #fff;
+  border-color: #fff !important;
+}
+
+.save,
+.save:hover,
+.save:focus {
+  background: #4aa1f3;
+  border: 1px solid #4aa1f3;
+}
+
+.save:disabled {
+  background: #414d59;
+  border: 1px solid #414d59;
+}
+
+.modal-header,
+.modal-footer {
+  border: 1px solid #414d59;
+}

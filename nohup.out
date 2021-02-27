@@ -1,0 +1,201 @@
+
+> seristo@0.1.0 dev
+> next dev
+
+Loaded env from /home/ec2-user/seristo-ui/.env.development
+Loaded env from /home/ec2-user/seristo-ui/.env
+ready - started server on http://localhost:3000
+info  - Using external babel configuration from /home/ec2-user/seristo-ui/babel.config.js
+info  - Using external babel configuration from /home/ec2-user/seristo-ui/.babelrc
+event - compiled successfully
+event - build page: /
+wait  - compiling...
+event - compiled successfully
+event - build page: /api/auth/[...nextauth]
+wait  - compiling...
+event - compiled successfully
+event - build page: /user/dashboard
+wait  - compiling...
+event - compiled successfully
+
+> seristo@0.1.0 dev
+> next dev
+
+Loaded env from /home/ec2-user/seristo-ui/.env.development
+Loaded env from /home/ec2-user/seristo-ui/.env
+ready - started server on http://localhost:3000
+info  - Using external babel configuration from /home/ec2-user/seristo-ui/babel.config.js
+info  - Using external babel configuration from /home/ec2-user/seristo-ui/.babelrc
+event - compiled successfully
+
+> seristo@0.1.0 dev
+> next dev
+
+Loaded env from /home/ec2-user/seristo-ui/.env.development
+Loaded env from /home/ec2-user/seristo-ui/.env
+ready - started server on http://localhost:3000
+info  - Using external babel configuration from /home/ec2-user/seristo-ui/babel.config.js
+info  - Using external babel configuration from /home/ec2-user/seristo-ui/.babelrc
+event - compiled successfully
+event - build page: /user/listings
+wait  - compiling...
+WARNING on line 9, column 1 of components/listings/Details/ImagesSection/styles.module.sass: 
+This selector doesn't have any properties and won't be rendered.
+  ╷
+9 │ .dotsContainer
+  │ ^^^^^^^^^^^^^^
+  ╵
+
+WARNING on line 14, column 1 of components/listings/Details/ImagesSection/styles.module.sass: 
+This selector doesn't have any properties and won't be rendered.
+   ╷
+14 │ .leftArrow
+   │ ^^^^^^^^^^
+   ╵
+
+WARNING on line 17, column 1 of components/listings/Details/ImagesSection/styles.module.sass: 
+This selector doesn't have any properties and won't be rendered.
+   ╷
+17 │ .rightArrow
+   │ ^^^^^^^^^^^
+   ╵
+
+WARNING on line 9, column 1 of components/listings/Details/ImagesSection/styles.module.sass: 
+This selector doesn't have any properties and won't be rendered.
+  ╷
+9 │ .dotsContainer
+  │ ^^^^^^^^^^^^^^
+  ╵
+
+WARNING on line 14, column 1 of components/listings/Details/ImagesSection/styles.module.sass: 
+This selector doesn't have any properties and won't be rendered.
+   ╷
+14 │ .leftArrow
+   │ ^^^^^^^^^^
+   ╵
+
+WARNING on line 17, column 1 of components/listings/Details/ImagesSection/styles.module.sass: 
+This selector doesn't have any properties and won't be rendered.
+   ╷
+17 │ .rightArrow
+   │ ^^^^^^^^^^^
+   ╵
+
+event - compiled successfully
+event - build page: /api/auth/[...nextauth]
+wait  - compiling...
+event - compiled successfully
+Top hits for "ru" "build"
+————————————————————————————————————————————————————————————————————————————————
+npm help config                                                    build:5 ru:87
+npm help scripts                                                   build:1 ru:33
+npm help package-json                                              build:4 ru:22
+npm help version                                                   build:4 ru:17
+npm help install                                                   build:6 ru:11
+npm help semver                                                    build:2 ru:12
+npm help registry                                                   build:4 ru:5
+npm help developers                                                 build:2 ru:5
+npm help explore                                                    build:5 ru:2
+npm help npm                                                        build:1 ru:4
+————————————————————————————————————————————————————————————————————————————————
+(run with -l or --long to see more context)
+
+
+> seristo@0.1.0 build
+> next build
+
+Loaded env from /home/ec2-user/seristo-ui/.env
+info  - Creating an optimized production build...
+info  - Using external babel configuration from /home/ec2-user/seristo-ui/babel.config.js
+info  - Using external babel configuration from /home/ec2-user/seristo-ui/.babelrc
+
+> seristo@0.1.0 dev
+> next dev
+
+Loaded env from /home/ec2-user/seristo-ui/.env.development
+Loaded env from /home/ec2-user/seristo-ui/.env
+ready - started server on http://localhost:3000
+info  - Using external babel configuration from /home/ec2-user/seristo-ui/babel.config.js
+info  - Using external babel configuration from /home/ec2-user/seristo-ui/.babelrc
+event - compiled successfully
+event - build page: /user/listings
+wait  - compiling...
+WARNING on line 9, column 1 of components/listings/Details/ImagesSection/styles.module.sass: 
+This selector doesn't have any properties and won't be rendered.
+  ╷
+9 │ .dotsContainer
+  │ ^^^^^^^^^^^^^^
+  ╵
+
+WARNING on line 14, column 1 of components/listings/Details/ImagesSection/styles.module.sass: 
+This selector doesn't have any properties and won't be rendered.
+   ╷
+14 │ .leftArrow
+   │ ^^^^^^^^^^
+   ╵
+
+WARNING on line 17, column 1 of components/listings/Details/ImagesSection/styles.module.sass: 
+This selector doesn't have any properties and won't be rendered.
+   ╷
+17 │ .rightArrow
+   │ ^^^^^^^^^^^
+   ╵
+
+WARNING on line 9, column 1 of components/listings/Details/ImagesSection/styles.module.sass: 
+This selector doesn't have any properties and won't be rendered.
+  ╷
+9 │ .dotsContainer
+  │ ^^^^^^^^^^^^^^
+  ╵
+
+WARNING on line 14, column 1 of components/listings/Details/ImagesSection/styles.module.sass: 
+This selector doesn't have any properties and won't be rendered.
+   ╷
+14 │ .leftArrow
+   │ ^^^^^^^^^^
+   ╵
+
+WARNING on line 17, column 1 of components/listings/Details/ImagesSection/styles.module.sass: 
+This selector doesn't have any properties and won't be rendered.
+   ╷
+17 │ .rightArrow
+   │ ^^^^^^^^^^^
+   ╵
+
+event - compiled successfully
+event - build page: /api/auth/[...nextauth]
+wait  - compiling...
+event - compiled successfully
+event - build page: /user/editprofile
+wait  - compiling...
+
+<--- Last few GCs --->
+
+[457:0x631c5c0]    81135 ms: Scavenge (reduce) 485.1 (496.3) -> 484.8 (497.6) MB, 23.2 / 0.0 ms  (average mu = 0.545, current mu = 0.601) allocation failure 
+[457:0x631c5c0]    81267 ms: Scavenge (reduce) 486.3 (497.6) -> 486.0 (498.6) MB, 31.9 / 0.0 ms  (average mu = 0.545, current mu = 0.601) allocation failure 
+[457:0x631c5c0]    81459 ms: Scavenge (reduce) 487.4 (498.6) -> 487.3 (499.8) MB, 31.6 / 0.0 ms  (average mu = 0.545, current mu = 0.601) allocation failure 
+
+
+<--- JS stacktrace --->
+
+FATAL ERROR: MarkCompactCollector: young object promotion failed Allocation failed - JavaScript heap out of memory
+ 1: 0xa68ab0 node::Abort() [node]
+ 2: 0x99bc57 node::FatalError(char const*, char const*) [node]
+ 3: 0xc4214e v8::Utils::ReportOOMFailure(v8::internal::Isolate*, char const*, bool) [node]
+ 4: 0xc424c7 v8::internal::V8::FatalProcessOutOfMemory(v8::internal::Isolate*, char const*, bool) [node]
+ 5: 0xe0c085  [node]
+ 6: 0xe3b613 v8::internal::EvacuateNewSpaceVisitor::Visit(v8::internal::HeapObject, int) [node]
+ 7: 0xe481c6 v8::internal::FullEvacuator::RawEvacuatePage(v8::internal::MemoryChunk*, long*) [node]
+ 8: 0xe342ef v8::internal::Evacuator::EvacuatePage(v8::internal::MemoryChunk*) [node]
+ 9: 0xe34568 v8::internal::PageEvacuationTask::RunInParallel(v8::internal::ItemParallelJob::Task::Runner) [node]
+10: 0xe26389 v8::internal::ItemParallelJob::Run() [node]
+11: 0xe4a150 void v8::internal::MarkCompactCollectorBase::CreateAndExecuteEvacuationTasks<v8::internal::FullEvacuator, v8::internal::MarkCompactCollector>(v8::internal::MarkCompactCollector*, v8::internal::ItemParallelJob*, v8::internal::MigrationObserver*, long) [node]
+12: 0xe4a993 v8::internal::MarkCompactCollector::EvacuatePagesInParallel() [node]
+13: 0xe4ad55 v8::internal::MarkCompactCollector::Evacuate() [node]
+14: 0xe5d4c1 v8::internal::MarkCompactCollector::CollectGarbage() [node]
+15: 0xe19388 v8::internal::Heap::MarkCompact() [node]
+16: 0xe1ad18 v8::internal::Heap::CollectGarbage(v8::internal::AllocationSpace, v8::internal::GarbageCollectionReason, v8::GCCallbackFlags) [node]
+17: 0xe1e2bc v8::internal::Heap::AllocateRawWithRetryOrFailSlowPath(int, v8::internal::AllocationType, v8::internal::AllocationOrigin, v8::internal::AllocationAlignment) [node]
+18: 0xde21da v8::internal::Factory::NewFillerObject(int, bool, v8::internal::AllocationType, v8::internal::AllocationOrigin) [node]
+19: 0x1138c9b v8::internal::Runtime_AllocateInYoungGeneration(int, unsigned long*, v8::internal::Isolate*) [node]
+20: 0x14cfa19  [node]

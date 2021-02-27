@@ -1,0 +1,209 @@
+.title
+  height: 50px
+  display: flex
+  justify-content: space-between
+  align-items: center
+  padding: 10px
+  background: #fff
+  margin-left: 1.55%
+  width: 96%
+
+.BackDrop
+  display: flex
+  flex-direction: row
+  background: #e5e5e5
+  padding-top: 1px
+  padding-bottom: 10px
+  border-radius: 0 0 11px 11px
+
+.advisoryPaper
+  width: 90% !important
+  margin-left: 5% !important
+  margin-top: 2%  !important
+
+.advisoryDiv
+  top: 50%
+  left: 50%
+  padding-bottom: 10px
+
+.editBtn
+  all: unset
+  margin-left: 90%
+  margin-top: 1%
+  text-decoration: underline
+  background: #fff
+  border: 1px  #fff
+  color: #858D95
+  cursor: pointer
+
+.img
+  width: 80px
+  height: 80px
+  border-radius: 50px
+  display: block
+  margin: auto
+
+.updateProfile
+  position: relative
+
+.updateImg
+  width: 80px
+  height: 80px
+  border-radius: 50px
+  display: block
+  margin: auto
+
+.text
+  background-color: #4CAF50
+  color: white
+  font-size: 16px
+  padding: 16px 32px
+
+.middle
+  transition: .5s ease
+  opacity: 0
+  position: absolute
+  top: 50%
+  left: 50%
+  transform: translate(-50%, -50%)
+  -ms-transform: translate(-50%, -50%)
+  text-align: center
+
+.updateProfile:hover
+  .updateImg
+    opacity: 0.3
+
+.updateProfile:hover
+  .middle
+    opacity: 1
+
+.input
+  opacity: 0
+  z-index: -1
+
+.advName
+  text-align: center
+  font-size: 24px
+  font-weight: bold
+
+.toolTip
+  width: 15px !important
+  margin-top: 15px !important
+  margin-left: 5px !important
+
+.advDesc
+  text-align: center
+  font-size: 18px
+
+.followDiv
+  display: flex
+  flex-direction: row 
+  margin-left: 35% 
+
+.custEmail
+  display: block
+  width: 300px
+  height: 35px
+  border: 1px solid #CED4DA
+  border-radius: 2px 0 0 2px
+
+.followbtn
+  background: #2242a4 !important
+  color: #fff !important
+  text-decoration: none !important
+  border-radius: 0 5px 5px 0 !important
+  height: 35px !important
+
+.editName,
+.editDesc
+  display: block
+  margin: 0 auto
+  height: 25px
+  width: 200px
+
+.editDesc
+  width: 400px 
+
+.detailsRow
+  display: flex
+  flex-direction: row
+  justify-content: space-between
+
+.priceTag
+  display: flex
+  border: none
+  font-family: Nunito Sans
+  font-style: normal
+  font-weight: bold
+  font-size: 12px
+  line-height: 16px
+  color: #33393F
+
+.priceTagPrice
+  padding: 2px 5px
+  background: #EEC200
+
+.triangle
+  border-top: 10px solid transparent
+  border-bottom: 10px solid transparent
+  border-left: 10px solid #EEC200
+
+.starsRow
+  margin: 5px 0px
+  display: flex
+  justify-content: space-between
+  font-family: Nunito Sans
+  font-style: normal
+  font-weight: bold
+  font-size: 12px
+  line-height: 16px
+  color: #ACB4BC
+
+.starsAndRating
+  display: flex
+  gap: 5px
+
+.poweredBy
+  height: 5%
+  border-radius: 4px !important
+  background: #fff !important
+  padding: 10px 15px 10px 12px !important
+  font-size: 13px !important
+  color: #000000 !important
+  bottom: 15px !important
+  left: 15px !important
+  font-family: Nunito Sans !important
+  text-decoration: none !important
+  position: fixed !important
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 10%) !important
+
+.logo
+  display: inline-block
+  height: 30px
+  width: 30px
+  margin-right: 8px
+  vertical-align: text-bottom
+
+@media only screen and (max-width: 600px)
+  .followDiv
+    margin-left: 5%
+
+  .img
+    width: 60px
+    height: 60px
+    margin: 0 auto
+  
+  .advName
+    font-size: 18px
+
+  .custEmail
+    width: 200px
+    height: 30px
+    border: 1px solid #CED4DA
+    border-radius: 2px 0 0 2px
+
+  .followbtn
+    height: 30px !important
+  
+  .poweredBy
+    display: none
